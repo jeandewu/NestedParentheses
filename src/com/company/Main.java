@@ -17,7 +17,7 @@ public class Main {
         int leftMarkOfParenthes = -1;
         int rightMarkOfParenthes = -1;
         boolean iNeedToStop = false;
-
+//jljiu
         do {
             leftMarkOfParenthes = getLeftMarkOfParenthes(StringAsArrayList, leftMarkOfParenthes);
             iNeedToStop = isiNeedToStop(leftMarkOfParenthes, iNeedToStop);
