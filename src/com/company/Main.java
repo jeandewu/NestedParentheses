@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println(reverseParentheses("abc(de(123)fgh)ijk"));
     }
-
+//fghfgh
     static String reverseParentheses(String s) {
         String[] originalString = s.split("");
         String finalString = "";
